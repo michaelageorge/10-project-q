@@ -1,13 +1,15 @@
 ![CF](http://i.imgur.com/7v5ASc8.png) LAB
 =================================================
 
-## Project Name
+## 10 - Stacks and Queues
 
-### Author: Student/Group Name
+### Author: Michael George, Code 401d28
 
 ### Links and Resources
-* [repo](http://xyz.com)
-* [travis](http://xyz.com)
+[![Build Status](https://travis-ci.com/michaelageorge/10-project-q.svg?branch=master)](https://travis-ci.com/michaelageorge/10-project-q)
+
+* [repo](https://github.com/michaelageorge/10-project-q)
+* [travis](https://travis-ci.com/michaelageorge/10-project-q)
 * [back-end](http://xyz.com)
 * [front-end](http://xyz.com)
 
@@ -40,3 +42,6 @@ Usage Notes or examples
 
 #### UML
 Link to an image of the UML for your application and response to events
+
+### Help and Citations
+
