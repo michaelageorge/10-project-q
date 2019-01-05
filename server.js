@@ -5,7 +5,7 @@ const Q = require('./lib/server-queue.js');
 Q.start();
 
 const db = new Q('database');
-db.connection()
+// db.connection()
 // db.doSomething();
 // console.log(db);
 // db.monitorEvent('create');
