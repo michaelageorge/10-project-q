@@ -8,16 +8,9 @@ Q.start();
 
 const db = new Q('database');
 
-// io.on('connection', (socket)=>{
-//   console.log(socket.id);
-// });
-
-// db.connect();
-// db.doSomething();
-// console.log(db);
-// db.monitorEvent('create');
-// db.monitorEvent('update');
-// db.monitorEvent('delete');
+db.monitorEvent('create');
+db.monitorEvent('update');
+db.monitorEvent('delete');
 
 const network = new Q('network');
 // network.monitorEvent('attack');
