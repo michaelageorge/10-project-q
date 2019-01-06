@@ -1,10 +1,11 @@
 'use strict';
-// const Publisher = require('./lib/publisher.js');
-// const Q = new Publisher();
 
-// Q.publish('database', 'delete', {id:77});
-// Q.publish('database', 'create', {id:99,name:'John'});
-// Q.publish('network', 'attack', {type: 'DDOS',source:'Russia'});
-const io = require('socket.io-client');
+const Q = require('../lib/subscriber');
 
-const something = io.connect('http://localhost:3003/database');
+const network = new Q('network');
+
+const db = new Q('database');
+
+network.subscribe('attack' , (payload) => {
+  console.log('Shields up!!!', payload);
+});
