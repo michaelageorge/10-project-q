@@ -11,4 +11,6 @@ db.subscribe('create', (payload) => {
   console.log('create happened', payload);
 });
 
-console.log(db.subscriptions());
+
+
+// console.log(db.subscriptions());
