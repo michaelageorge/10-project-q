@@ -1,10 +1,6 @@
 'use strict';
 
 const Q = require('../lib/server-queue.js');
-// Q.start()
-
-// const thing = new Q('namespace');
-// console.log(typeof(thing));
 
 describe('testing jest' , () => {
   
