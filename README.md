@@ -3,30 +3,35 @@
 
 ## 10 - Stacks and Queues
 
-### Author: Michael George, Code 401d28
+### Author: Michael George, Hannah Ingham, George Raymond --- Code 401d28
 
 ### Links and Resources
 [![Build Status](https://travis-ci.com/michaelageorge/10-project-q.svg?branch=master)](https://travis-ci.com/michaelageorge/10-project-q)
 
 * [repo](https://github.com/michaelageorge/10-project-q)
 * [travis](https://travis-ci.com/michaelageorge/10-project-q)
-* [back-end](http://xyz.com)
-* [front-end](http://xyz.com)
 
 ### Modules
-#### `modulename.js`
+#### `lib/publisher.js`
+#### `lib/server-queue.js`
+#### `lib/subscriber.js`
+#### `server.js`
+
 ##### Exported Values and Methods
+class Q
+  monitorEvent(event);
+  static start();
 
-###### `foo(thing) -> string`
-Usage Notes or examples
+class Publisher
+  publish();
 
-###### `bar(array) -> array`
-Usage Notes or examples
+class Subscriber
+  subscribe(event, cb);
 
 ### Setup
 #### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
+* `PORT` - 3003
+
 
 #### Running the app
 * `npm start`
@@ -39,9 +44,4 @@ Usage Notes or examples
 * How do you run tests?
 * What assertions were made?
 * What assertions need to be / should be made?
-
-#### UML
-Link to an image of the UML for your application and response to events
-
-### Help and Citations
 
